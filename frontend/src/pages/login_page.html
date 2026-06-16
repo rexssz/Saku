@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk</title>
+    <link rel="stylesheet" href="../styles/login_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="POST" class="main">
+            <h1>Masuk</h1><br>
+            <label for="email">Masukkan Email:</label>
+            <input class="email" name="email" placeholder="Email" type="email">
+
+            <label for="password">Masukkan Kata Sandi:</label>
+            <input id="password" class="password" type="password" name="password" placeholder="Password">
+            <input type="checkbox" name="show-pw" id="show-pw" onclick="showPassword()">
+            <label for="show-pw">Tunjukkan Kata Sandi</label><br>
+            <a href="#">Lupa kata sandi?</a>
+            <br>
+
+            <button type="submit">Masuk</button>
+        </form>
+    </div>
+    <script src="../scripts/login_script.js"></script>
+</body>
+
+</html>
